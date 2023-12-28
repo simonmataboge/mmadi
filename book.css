@@ -1,0 +1,263 @@
+body
+{
+    font-family: latin;
+    background-color: lightgray;
+
+
+
+}
+.header img
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#about
+{
+    margin-top: -80px;
+    margin-left: 350px;
+    
+}
+@media screen and (max-width:1000px ){
+	#about{
+		width: 100px;
+	}
+}
+
+.right h3
+{
+    float: ;
+    margin-top: -40px;
+    border-radius: 40px;
+    background-color: ;
+    width: 400px;
+    color: ;
+    font-family: latin;
+    text-align: center;
+    margin-left: -100px;
+}
+@media screen and (max-width:1000px ){
+	.right h3{
+		margin-left:10px;
+		margin-top:px;
+        width: 180px;
+	}
+}
+.right a
+{
+    color: white;
+}
+.right
+{
+    float: ;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color:;
+    width: 150px;
+    margin-left: 0px;
+    position: fixed;
+    display: ;
+}
+@media screen and (max-width:1000px ){
+	.right{
+		display: none!important;
+	}
+}
+.right ul
+{
+    background: linear-gradient(to top right,orange,yellow);
+    padding: 10px 10px;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    margin-left: 20px;
+	margin-top: -10px;
+    
+}
+@media screen and (max-width:1000px ){
+	.right ul{
+		margin-left:10px;
+		margin-top:0px;
+        width: 150px;
+	}
+}
+
+
+
+
+
+
+
+.sidepanel  
+{
+  width:0px;
+  position:fixed;
+  z-index: 1;
+  top: 140px;
+  left: 20px;
+  background-image: url( image22.png);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+    border-radius: 10px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 18px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+    margin-top: -20px;
+}
+
+.sidepanel a:hover {
+  color: lime;
+}
+
+.sidepanel .closebtn 
+{
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 36px;
+    margin-top: -10px;
+}
+.right-menu
+{
+    display: none;
+}
+@media screen and (max-width:1000px ){
+	.right-menu{
+		display: inline-block;
+	}
+}
+.openbtn 
+{
+  font-size: 20px;
+  cursor: pointer;
+  color: black;
+  padding: 0px 10px;
+  border: none;
+  position:fixed;
+  margin-top:-60px;
+    margin-left: 400px;
+    position: fixed;
+ 
+ }
+.openbtn:hover 
+{
+  background-color: lime;
+}
+
+
+
+
+
+
+
+
+
+
+#about img
+{
+    border-radius: 5px;
+    width:600px;
+	margin-left: -80px;
+	height:500px
+}
+@media screen and (max-width:1000px ){
+	#about img{
+		margin-left:-300px;
+		margin-top:100px;
+        width: 400px;
+        height: 350px;
+	}
+}
+
+
+
+
+
+
+.box
+{
+    
+    margin-left: 180px;
+    margin-top: 50px;
+    width: 800px;
+    color: black; 
+	border-color: black;
+	box-shadow:0 0 10px 0 #ccc;
+	padding: 40px;
+	
+}
+@media screen and (max-width:1000px ){
+	.box{
+		margin-left:10px;
+		margin-top:30px;
+        width: 460px;
+        padding: 10px;
+	}
+}
+hr
+{
+    margin-left: 50px;
+    width: 600px;
+   
+}
+@media screen and (max-width:1000px ){
+	hr{
+		margin-left:px;
+		margin-top:px;
+        width: 200px;
+	}
+}
+/*---next----*/
+.next
+{
+	margin-left:180px;
+	margin-top:20px;
+}
+@media screen and (max-width:1000px ){
+	.next{
+        margin-left: 10px;
+	}
+}
+@media screen and (max-width:400px ){
+	.next{
+        margin-left: 10px;width: 460px;
+	}
+}
+.next .buy-btn
+{
+	background-color: blue;
+	padding:5px;
+	color: white;
+	border-radius:0px;
+	margin-left:0px;
+	margin-top:100px;
+	padding-left:5px;
+	padding-right:5px;
+	
+	
+}
+@media screen and (max-width:1000px ){
+	.next .buy-btn{
+        	padding-left:10px;
+	           padding-right:10px;
+	}
+}
+#footer
+{
+    background:black;
+    color: white;
+    padding: 12px;
+    margin-top: 20px;
+}
+@media screen and (max-width:1000px ){
+	#footer{
+        width: 480px;
+	}
+}
