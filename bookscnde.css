@@ -201,6 +201,11 @@ h1
 	text-shadow: 5px 5px #f4b70f;
 	font-size: 70px;
 }
+@media screen and (max-width:400px ){
+	h1{
+		text-align: left;
+	}
+}
 h1:hover
 {
 
@@ -245,7 +250,7 @@ b
 }
 @media screen and (max-width:400px ){
 	.next{
-        margin-left: 10px;width: 460px;
+        margin-left: -20px;width: 490px;
 	}
 }
 .next .buy-btn
